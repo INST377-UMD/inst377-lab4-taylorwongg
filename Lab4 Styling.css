@@ -1,0 +1,44 @@
+body{
+    background-color:lightblue;
+    font-family: 'Times New Roman';
+}
+.content-area{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.name-area{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: plum;
+    text-align: center;
+}
+
+.change-color{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: plum;
+    text-align: center;
+}
+
+.validate-area{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: plum;
+    text-align: center;
+}
+
+.add-text{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: plum;
+    text-align: center;
+}
+
+#button{
+    width: 100px;
+    height: 30px;
+}
+
+
